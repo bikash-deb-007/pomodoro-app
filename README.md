@@ -9,6 +9,10 @@ A minimalist, always-on-top Pomodoro timer for Windows. Lives in the top-right c
 - **Collapse to bubble** — hover to expand, move away to collapse into a small progress ring
 - **Always on top** — never loses focus behind other windows
 - **Timer presets** — Classic (25/5), Deep Work (50/10), Sprint (15/3), Marathon (60/15)
+- **Custom preset** — right-click → Custom... to set any work/break duration
+- **Session persistence** — timer state and session count survive app restarts
+- **Daily stats** — right-click shows today's completed session count
+- **Taskbar progress** — countdown shown in the Windows taskbar thumbnail
 - **Session tracking** — dot indicators count completed work sessions; auto-triggers long break every 4 sessions
 - **Smooth animations** — color transitions between work / short break / long break modes
 - **Custom chime** — synthesized 3-tone chime on completion, no audio files needed
@@ -21,8 +25,9 @@ A minimalist, always-on-top Pomodoro timer for Windows. Lives in the top-right c
 
 | Action | Control |
 |--------|---------|
-| Start / Pause / Resume | Double-click |
-| Timer presets | Right-click |
+| Start / Pause / Resume | Double-click or Space |
+| Timer presets + stats | Right-click |
+| Custom preset | Right-click → Custom... |
 | Resize | Scroll wheel |
 | Move | Click and drag |
 | Quit | Middle-click or Escape |
